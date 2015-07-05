@@ -13,7 +13,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Chris Balmer
+      title: OakOps
 
 description: TODO Description
 author:
