@@ -1,0 +1,33 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
+markdown: kramdown
+kramdown:
+  input: GFM
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: OakOps
+
+description: TODO Description
+author:
+  name: Chris Balmer
+  email: notpostedyet
+  github: chrisbalmer
+#  twitter: dbtek
+#  pinterest: asd123
+  linkedin: chris-balmer/b7/10b/54
+  bio: TODO Bio
+  email_md5: TODO
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:
